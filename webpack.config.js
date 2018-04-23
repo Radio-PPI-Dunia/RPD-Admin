@@ -2,6 +2,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
+    devtool: 'cheap-module-eval-source-map',
     entry: path.join(__dirname, './client/index.js'),
     mode: 'development',
     output: {

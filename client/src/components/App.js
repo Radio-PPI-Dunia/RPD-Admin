@@ -3,7 +3,9 @@ import React from 'react';
 export default class App extends React.Component{
     render(){
         return(
-            <div>Hello World from React</div>
+            <div className="container">
+                <h3>React-Node-Apollo-GraphQL Boilerplate</h3>
+            </div>
         )
     }
 }
