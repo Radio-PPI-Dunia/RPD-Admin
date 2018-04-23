@@ -3,6 +3,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
     entry: path.join(__dirname, './client/index.js'),
+    mode: 'development',
     output: {
         path: path.join(__dirname + '/dist'),
         filename: 'bundle.js'
