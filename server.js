@@ -1,5 +1,6 @@
 import express from "express";
 import path from "path";
+import bodyParser from 'body-parser';
 import mongoose from "mongoose";
 import {makeExcuteableSchema} from "graphql-tools";
 import webpack from "webpack";
